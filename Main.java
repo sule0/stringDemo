@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		String mesaj="today, the weather is perfect ";
 		System.out.println("number of character: "+mesaj.length());//length of text 
-		System.out.println("carecter 10th: "+mesaj.charAt(9));  // charAt(n) -> character n
+		System.out.println("character 10th: "+mesaj.charAt(9));  // charAt(n) -> character n
 		System.out.println(mesaj.concat("Yes!")); //temporary merge operation
 		System.out.println(mesaj);
 		System.out.println(mesaj.startsWith("t"));//verify start character
