@@ -16,6 +16,21 @@ public class Main {
 	
 	System.out.println(mesaj.indexOf("o")); // index number of the letter(from the left side)
 	System.out.println(mesaj.lastIndexOf("f"));  //(starts searching on the right)
+		
+		String newMesaj= mesaj.replace(" ", "-");// 
+	System.out.println(newMesaj);
+	System.out.println(mesaj.substring(4));
+	System.out.println(mesaj.substring(5,9));
+	
+	for(String kelime: mesaj.split(" ")) {
+		System.out.println(kelime);
+		
+	}
+	
+	System.out.println(mesaj.toLowerCase());
+	System.out.println(mesaj.toUpperCase());
+	System.out.println(mesaj.trim()); //removes leading and trailing spaces
+	
 	}
 
 }
